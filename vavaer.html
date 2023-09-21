@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Vaver chujem!</title>
+    <!-- Style -->
+        <style media="screen">
+            #masnePrsty {
+                background-color: red;
+                align-items: center;
+                text-align: center;
+            }
+            h2 {
+                background-color: red;
+                text-align: center;
+            }
+            body {
+                border-style: solid;
+            }
+
+            button {
+                width: 500px;
+                height: 150px;
+                background-color: #00cc00;
+            }
+            #buttonAtrbs {
+                display: none;
+            }
+        </style>
+    <!-- Script -->
+        <script type="text/javascript">
+            function show(){
+                var div = document.getElementById("buttonAtrbs")
+                if (div.style.display == "none"){
+                    div.style.display = "block"
+                }
+                else {
+                    div.style.display = "none"
+                }
+        }
+        </script>
+    </head>
+    <body>
+
+        <h1 id="masnePrsty">Vaver ma mastne prsty</h1>
+        <p>Smrdia mu jak <a href="https://balkaninsight.com/2019/07/23/the-affluent-slovak-town-where-neo-fascism-is-vogue/">rybacina</a></p>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5TX8W3DkKDMw4hvn40xz1gHaDl%26pid%3DApi&f=1&ipt=e82a4313fa04ba447c669ba98bd0b49913d339e6d35f2904043186fd377ca0cf&ipo=images" alt="Ruki massne fuj">
+        <h1>hmmm ryba</h1>
+        <hr>
+
+        <h2>Preco by vaver nemal mat pravo majetku.</h2>
+        <button type="button" name="button" onclick="show()">Preco vaver?</button>
+        <div id="buttonAtrbs">
+            <ol>
+                <li>Nema doma sprchu</li>
+                <li>Gadze neminaju love!</li>
+            </ol>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rlMDnUA6bI6ddzx_rP64nAHaHa%26pid%3DApi%26h%3D160&f=1&ipt=ea9b3b2e2fb5cb1c5b72062704004fd77b6a46ea100286f8a1a3689bfd9733d2&ipo=images" alt="smradlavy chudak">
+        </div>
+    </body>
+</html>
